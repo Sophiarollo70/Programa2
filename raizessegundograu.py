@@ -4,7 +4,7 @@ B= float(input("Digite o valor de B: "))
 C= float(input("Digite o valor de C: "))
 
 if A == 0:
-    print("Noo pode divisao por 0")
+    print("Não pode divisao por 0")
 else:
     delta= (B ** 2) - (4 * A * C)
     if delta < 0:
